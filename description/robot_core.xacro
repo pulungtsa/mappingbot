@@ -27,10 +27,10 @@
     <!-- ROBOT PARAMETERS -->
 
     <xacro:property name="wheel_radius" value="0.0825"/> 
-    <xacro:property name="wheel_thickness" value="0.05"/>
+    <xacro:property name="wheel_thickness" value="0.04"/>
     <xacro:property name="wheel_mass" value="2.0"/>
     <xacro:property name="wheel_offset_x" value="0.1"/>
-    <xacro:property name="wheel_offset_y" value="0.25"/>
+    <xacro:property name="wheel_offset_y" value="0.19"/>
     <xacro:property name="wheel_offset_z" value="0.05"/>
     <xacro:property name="chassis_height" value="0.138"/>
     <xacro:property name="chassis_length" value="0.5"/>
