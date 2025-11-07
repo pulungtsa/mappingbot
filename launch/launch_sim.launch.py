@@ -30,7 +30,12 @@ def generate_launch_description():
                     launch_arguments={'exta_gazebo_args': '--ros-args --params-file' + gazebo_params_file}.items()
              )
 
-    
+    joystick = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true'}.items()
+    )
+
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'mappingbot'],
@@ -49,12 +54,22 @@ def generate_launch_description():
         arguments=["joint_broad"],
     )
 
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    twist_mux = Node(
+            package="twist_mux",
+            executable="twist_mux",
+            parameters=[twist_mux_params, {'use_sim_time': True}],
+            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+        )
+
 
 
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
+        joystick,
+        twist_mux,
         spawn_entity,
         diff_drive_spawner,
         joint_broad_spawner,

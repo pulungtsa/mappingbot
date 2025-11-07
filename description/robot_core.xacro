@@ -49,31 +49,43 @@
     
     </link>
 
+    
+    <!-- BASE FOOTPRINT LINK -->
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0 "/>
+    </joint>
+    
+    <link name="base_footprint">
+    </link>
+
 
     <!-- CHASSIS LINK -->
 
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
-        <origin xyz="-${wheel_offset_x} 0 -${wheel_offset_z}"/>
+        <origin xyz="${wheel_offset_x} 0 -${wheel_offset_z}"/>
     </joint>
 
     <link name="chassis">
         <visual>
-            <origin xyz = "${chassis_length/2} 0 ${chassis_height/2}"/>
+            <origin xyz = "-${chassis_length/2} 0 ${chassis_height/2}"/>
             <geometry>
                 <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
             </geometry>
             <material name="white"/>
         </visual>
      <collision>
-            <origin xyz = "${chassis_length/2} 0 ${chassis_height/2}"/>
+            <origin xyz = "-${chassis_length/2} 0 ${chassis_height/2}"/>
             <geometry>
                 <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
             </geometry>
         </collision>
         <xacro:inertial_box mass="${chassis_mass}" x="${chassis_length}" y="${chassis_width}" z="${chassis_height}">
-            <origin xyz="${chassis_length/2} 0 ${chassis_height/2}" rpy="0 0 0"/>
+            <origin xyz="-${chassis_length/2} 0 ${chassis_height/2}" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
 
@@ -87,8 +99,8 @@
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel"/>
-        <origin xyz="0 ${wheel_offset_y} 0" rpy="${pi/2} 0 0"/>
-        <axis xyz="0 0 -1"/>
+        <origin xyz="0 ${wheel_offset_y} 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 0 1"/>
     </joint>
 
     <link name="left_wheel">
@@ -118,8 +130,8 @@
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel"/>
-        <origin xyz="0 -${wheel_offset_y} 0" rpy="-${pi/2} 0 0"/>
-        <axis xyz="0 0 1"/>
+        <origin xyz="0 -${wheel_offset_y} 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 0 -1"/>
     </joint>
 
     <link name="right_wheel">
@@ -149,7 +161,7 @@
     <joint name="left_caster_wheel_joint" type="fixed">
         <parent link="chassis"/>
         <child link="left_caster_wheel"/>
-        <origin xyz="${caster_wheel_offset_x} ${caster_wheel_offset_y} ${caster_wheel_offset_z}"/>
+        <origin xyz="-${caster_wheel_offset_x} ${caster_wheel_offset_y} ${caster_wheel_offset_z}"/>
     </joint>
 
     <link name="left_caster_wheel">
@@ -181,7 +193,7 @@
     <joint name="right_caster_wheel_joint" type="fixed">
         <parent link="chassis"/>
         <child link="right_caster_wheel"/>
-        <origin xyz="${caster_wheel_offset_x} -${caster_wheel_offset_y} ${caster_wheel_offset_z}"/>
+        <origin xyz="-${caster_wheel_offset_x} -${caster_wheel_offset_y} ${caster_wheel_offset_z}"/>
     </joint>
 
     <link name="right_caster_wheel">
