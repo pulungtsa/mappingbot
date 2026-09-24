@@ -1,0 +1,53 @@
+[0.017s] Invoking command in '/home/pulung/projects/mappingbot/build/mappingbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pulung/nav2_ws/install/nav2_simple_commander:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pulung/projects/mappingbot/build/mappingbot -- -j16 -l16
+[0.078s] Invoked command in '/home/pulung/projects/mappingbot/build/mappingbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pulung/nav2_ws/install/nav2_simple_commander:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pulung/projects/mappingbot/build/mappingbot -- -j16 -l16
+[0.092s] Invoking command in '/home/pulung/projects/mappingbot/build/mappingbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pulung/nav2_ws/install/nav2_simple_commander:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pulung/projects/mappingbot/build/mappingbot
+[0.104s] -- Install configuration: ""
+[0.104s] -- Execute custom install script
+[0.104s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/drive_bot.rviz
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/empty.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/gaz_ros2_ctl_use_sim.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/gazebo_params.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/joystick.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/mapper_params_online_async.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/my_controllers.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/nav2_params.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/ros_gz_bridge.yaml
+[0.105s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/twist_mux.yaml
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/view_bot.rviz
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/gazebo_control.xacro
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/inertial_macros.xacro
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/lidar.xacro
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/robot.urdf.xacro
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/robot_core.xacro
+[0.106s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/ros2_control.xacro
+[0.106s] -- Symlinking: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/joystick.launch.cpython-314.pyc
+[0.121s] -- Symlinking: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/unified_sim.launch.cpython-314.pyc
+[0.135s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/joystick.launch.py
+[0.135s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/launch_mappingbot.launch.py
+[0.135s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/launch_sim.launch.py
+[0.135s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/localization_launch.py
+[0.135s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/navigation_launch.py
+[0.135s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/online_async_launch.py
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/rsp.launch.py
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/unified_sim.launch.py
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/empty.sdf
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/empty.world
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/obstacles.world
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/obstacleswall.world
+[0.136s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/ament_index/resource_index/package_run_dependencies/mappingbot
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/ament_index/resource_index/parent_prefix_path/mappingbot
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/path.sh
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/path.dsv
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.bash
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.fish
+[0.137s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.sh
+[0.138s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.zsh
+[0.138s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.dsv
+[0.138s] -- Symlinking: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/package.dsv
+[0.151s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/ament_index/resource_index/packages/mappingbot
+[0.152s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/cmake/mappingbotConfig.cmake
+[0.152s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/cmake/mappingbotConfig-version.cmake
+[0.152s] -- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/package.xml
+[0.153s] Invoked command in '/home/pulung/projects/mappingbot/build/mappingbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pulung/nav2_ws/install/nav2_simple_commander:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pulung/projects/mappingbot/build/mappingbot

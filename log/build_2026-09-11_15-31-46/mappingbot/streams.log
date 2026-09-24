@@ -1,0 +1,35 @@
+[0.031s] Invoking command in '/home/pulung/projects/mappingbot/build/mappingbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pulung/nav2_ws/install/nav2_simple_commander:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pulung/projects/mappingbot/src -DCMAKE_INSTALL_PREFIX=/home/pulung/projects/mappingbot/install/mappingbot
+[0.052s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.052s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.052s]   CMake.
+[0.052s] 
+[0.052s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.052s]   to tell CMake that the project requires at least <min> but has been updated
+[0.052s]   to work with policies introduced by <max> or earlier.
+[0.052s] 
+[0.052s] 
+[0.157s] -- The CXX compiler identification is GNU 15.2.0
+[0.175s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.368s] CMake Error at CMakeLists.txt:19 (find_package):
+[0.368s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.368s]   has asked CMake to find a package configuration file provided by
+[0.369s]   "ament_cmake", but CMake did not find one.
+[0.369s] 
+[0.369s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.369s]   any of the following names:
+[0.369s] 
+[0.369s]     ament_cmakeConfig.cmake
+[0.369s]     ament_cmake-config.cmake
+[0.369s] 
+[0.369s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.369s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.369s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.369s]   has been installed.
+[0.369s] 
+[0.369s] 
+[0.369s] -- Configuring incomplete, errors occurred!
+[0.374s] Invoked command in '/home/pulung/projects/mappingbot/build/mappingbot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pulung/nav2_ws/install/nav2_simple_commander:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pulung/projects/mappingbot/src -DCMAKE_INSTALL_PREFIX=/home/pulung/projects/mappingbot/install/mappingbot

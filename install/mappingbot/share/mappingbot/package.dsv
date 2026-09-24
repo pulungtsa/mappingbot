@@ -1,0 +1,6 @@
+source;share/mappingbot/hook/cmake_prefix_path.dsv
+source;share/mappingbot/hook/cmake_prefix_path.sh
+source;share/mappingbot/local_setup.bash
+source;share/mappingbot/local_setup.dsv
+source;share/mappingbot/local_setup.sh
+source;share/mappingbot/local_setup.zsh

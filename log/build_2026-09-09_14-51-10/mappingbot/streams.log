@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/pulung/projects/mappingbot/build/mappingbot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pulung/projects/mappingbot/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pulung/projects/mappingbot/install/mappingbot
+[0.020s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.020s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.020s]   CMake.
+[0.020s] 
+[0.020s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.020s]   to tell CMake that the project requires at least <min> but has been updated
+[0.020s]   to work with policies introduced by <max> or earlier.
+[0.021s] 
+[0.021s] [0m
+[0.101s] -- The CXX compiler identification is unknown
+[0.105s] [31mCMake Error at CMakeLists.txt:2 (project):
+[0.105s]   No CMAKE_CXX_COMPILER could be found.
+[0.105s] 
+[0.105s]   Tell CMake where to find the compiler by setting either the environment
+[0.105s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[0.105s]   to the compiler, or to the compiler name if it is in the PATH.
+[0.105s] 
+[0.105s] [0m
+[0.106s] -- Configuring incomplete, errors occurred!
+[0.114s] Invoked command in '/home/pulung/projects/mappingbot/build/mappingbot' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pulung/projects/mappingbot/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pulung/projects/mappingbot/install/mappingbot

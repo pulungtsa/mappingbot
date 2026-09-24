@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Gazebo Harmonic diff drive plugin (used when use_ros2_control:=false).
+         Replaces classic libgazebo_ros_diff_drive.so.
+         Physical parameters (wheel_separation, wheel_radius, limits) are unchanged. -->
+    <gazebo>
+        <plugin filename="gz-sim-diff-drive-system"
+                name="gz::sim::systems::DiffDrive">
+
+            <!-- WHEEL INFORMATION -->
+            <left_joint>left_wheel_joint</left_joint>
+            <right_joint>right_wheel_joint</right_joint>
+            <wheel_separation>0.38</wheel_separation>
+            <wheel_radius>0.0825</wheel_radius>
+
+            <!-- LIMITS -->
+            <max_wheel_torque>200</max_wheel_torque>
+            <max_linear_acceleration>10.0</max_linear_acceleration>
+
+            <!-- OUTPUT -->
+            <topic>cmd_vel</topic>
+            <odom_topic>odom</odom_topic>
+            <tf_topic>tf</tf_topic>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_link</child_frame_id>
+            <odom_publish_frequency>50</odom_publish_frequency>
+        </plugin>
+
+        <!-- Joint state publisher for non-ros2_control mode -->
+        <plugin filename="gz-sim-joint-state-publisher-system"
+                name="gz::sim::systems::JointStatePublisher">
+            <joint_name>left_wheel_joint</joint_name>
+            <joint_name>right_wheel_joint</joint_name>
+            <topic>joint_states</topic>
+        </plugin>
+    </gazebo>
+
+</robot>

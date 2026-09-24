@@ -1,0 +1,5 @@
+source;share/mappingbot/local_setup.bash
+source;share/mappingbot/local_setup.dsv
+source;share/mappingbot/local_setup.fish
+source;share/mappingbot/local_setup.sh
+source;share/mappingbot/local_setup.zsh

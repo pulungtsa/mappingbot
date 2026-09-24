@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pulung/projects/mappingbot/src" FILES "/home/pulung/projects/mappingbot/build/mappingbot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mappingbot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

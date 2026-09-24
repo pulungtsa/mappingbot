@@ -1,0 +1,9 @@
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/uninstall.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/mappingbot_uninstall.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/test.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/edit_cache.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/rebuild_cache.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/list_install_components.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/install.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/install/local.dir
+/home/pulung/projects/mappingbot/build/mappingbot/CMakeFiles/install/strip.dir

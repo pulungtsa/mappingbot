@@ -1,0 +1,62 @@
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pulung/projects/mappingbot/build/mappingbot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/drive_bot.rviz
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/empty.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/gaz_ros2_ctl_use_sim.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/gazebo_params.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/joystick.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/mapper_params_online_async.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/my_controllers.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/nav2_params.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/ros_gz_bridge.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/twist_mux.yaml
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/config/view_bot.rviz
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/lidar.xacro
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/robot_core.xacro
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/description/ros2_control.xacro
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/joystick.launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/keyboard_teleop.launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/launch_mappingbot.launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/launch_sim.launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/localization_launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/navigation_launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/online_async_launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/rsp.launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/__pycache__/sim_nav_teleop.launch.cpython-314.pyc
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/joystick.launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/keyboard_teleop.launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/launch_mappingbot.launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/localization_launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/navigation_launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/online_async_launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/launch/rsp.launch.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/empty.world
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/mappingbot_obstacles.world
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/obstacles.world
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/worlds/obstacleswall.world
+-- Symlinking: /home/pulung/projects/mappingbot/install/mappingbot/lib/mappingbot/keyboard_teleop.py
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/ament_index/resource_index/package_run_dependencies/mappingbot
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/ament_index/resource_index/parent_prefix_path/mappingbot
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/path.sh
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/environment/path.dsv
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.bash
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.fish
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.sh
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.zsh
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/local_setup.dsv
+-- Symlinking: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/package.dsv
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/ament_index/resource_index/packages/mappingbot
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/cmake/mappingbotConfig.cmake
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/cmake/mappingbotConfig-version.cmake
+-- Up-to-date symlink: /home/pulung/projects/mappingbot/install/mappingbot/share/mappingbot/package.xml

@@ -1,0 +1,4 @@
+[-1789113165494000640.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--verbose']
+[-1789113165494000640.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test-result', test_result_base='build', all=False, result_files_only=False, verbose=True, delete=False, delete_yes=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72f4e35fb980>, verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x72f4e34acc20>, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x72f4e34acc20>>)
+[-1789113165494000640.000s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[-1789113165494000640.000s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)

@@ -1,0 +1,40 @@
+# ros_gz_bridge configuration for mappingbot simulation
+# Bridges Gazebo Harmonic topics <-> ROS 2 topics
+#
+# Used in simulation mode (use_ros2_control:=true) with gz_ros2_control.
+# ros2_control handles cmd_vel and odometry natively; this bridge provides
+# the clock (sim time) and laser scan.
+
+# Simulation clock — required for use_sim_time to work correctly
+- topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+
+# LiDAR scan from Gazebo Harmonic gpu_lidar sensor
+- topic_name: "/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+# ---- Below entries are used when use_ros2_control:=false ----
+# (gazebo_control.xacro / gz-sim-diff-drive-system mode)
+
+# Odometry from DiffDrive plugin
+- topic_name: "/odom"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+# TF from DiffDrive plugin
+- topic_name: "/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+# cmd_vel from ROS 2 to Gazebo (non-ros2_control mode only)
+- topic_name: "/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  direction: ROS_TO_GZ
+

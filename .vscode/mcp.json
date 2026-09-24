@@ -1,0 +1,37 @@
+{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ]
+    },
+        
+    "ros2-workspace-inspector": {
+      "command": "uv",
+      "args": ["--directory",
+        "/home/pulung/tools/ros2-workspace-mcp",
+        "run",
+        "ros2-workspace-mcp",
+        "--root",
+        "${workspaceFolder}"
+      ]
+    },
+
+    "ros-mcp-server": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+          "--from",
+          "ros-mcp",
+          "--with",
+          "fastmcp>=2.11.3,<3",
+          "ros-mcp",
+          "--transport=stdio"
+      ]
+    }
+  }
+}
+

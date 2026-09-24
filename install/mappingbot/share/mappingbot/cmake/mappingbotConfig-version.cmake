@@ -1,0 +1,1 @@
+/home/pulung/projects/mappingbot/build/mappingbot/ament_cmake_core/mappingbotConfig-version.cmake
